@@ -19,7 +19,7 @@ import pprint
 start_time = time.time()
 
 # Create connnect 建立與mongoDB連線
-client = pymongo.MongoClient(host='192.168.158.128', port=27017)
+client = pymongo.MongoClient(host='localhost', port=27017)
 
 db = client.tibame
 collection = db.recipe_vector_w2vm2
